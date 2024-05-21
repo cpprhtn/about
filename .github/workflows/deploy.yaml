@@ -26,6 +26,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy CNAME
+        run: cp CNAME out/CNAME
+
+      - name: Copy .nojekyll
+        run: cp .nojekyll out/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
