@@ -1,7 +1,15 @@
+import Footer from "@lery/components/Footer";
+import Header from "@lery/components/Header";
+import ActivityContainer from "@lery/containers/ActivityContainer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>자기 소개 (예정)</div>
+    <main className="mx-auto my-0 max-w-screen-md p-4">
+      <Header />
+      <ActivityContainer title="Work"></ActivityContainer>
+      <ActivityContainer title="Experience"></ActivityContainer>
+      <ActivityContainer title="Article"></ActivityContainer>
+      <Footer />
     </main>
   );
 }
