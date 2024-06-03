@@ -6,7 +6,7 @@ type Props = {
 export default function ActivityContainer({ title, children }: Props) {
   return (
     <section>
-      {title && <h1 className="text-4xl font-bold">{title}</h1>}
+      {title && <h1 className="text-4xl font-bold mt-8 mb-2">{title}</h1>}
       {children}
     </section>
   );
