@@ -2,10 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const pretendard = localFont({
-  src: "../static/fonts/PretendardVariable.woff2",
-});
-
 const title = "자기 소개 - 김현우";
 const description =
   "보이지 않는 곳에서 동작하는 것에 대해 알아보는 걸 좋아합니다.";
@@ -26,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={pretendard.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
