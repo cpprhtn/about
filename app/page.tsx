@@ -35,7 +35,23 @@ export default function Home() {
           subtitle="운영진, 2023.07 ~ 현재"
         ></ActivityItemContainer>
       </ActivityContainer>
-      <ActivityContainer title="Article"></ActivityContainer>
+      <ActivityContainer title="Article">
+        <ActivityItemContainer
+          title="Nest.js는 실제로 어떻게 의존성을 주입해줄까?"
+          url="https://velog.io/@coalery/nest-injection-how"
+          subtitle="Nest.js가 의존성을 주입하는 방법을 Nest.js 코드와 함께 깊게 알아봅니다."
+        ></ActivityItemContainer>
+        <ActivityItemContainer
+          title="Nest.js는 실제로 어떻게 라우트를 처리할까?"
+          url="https://velog.io/@coalery/nest-route-how"
+          subtitle="Nest.js가 어떻게 ExpressJS에서 요청을 전달 받아 적절하게 컨트롤러의 핸들러를 호출해줄 수 있는지를 깊게 알아봅니다."
+        ></ActivityItemContainer>
+        <ActivityItemContainer
+          title="Nest.js를 카프카 컨슈머로 만들기! 그런데 많이 이상하게."
+          url="https://velog.io/@coalery/kafka-consumer-with-nestjs"
+          subtitle="Nest.js의 커스텀 어댑터를 활용해서 기존에는 HTTP 요청만 처리하던 Nest.js가 카프카 컨슈머로 동작할 수 있도록 만들어봅니다."
+        ></ActivityItemContainer>
+      </ActivityContainer>
       <Footer />
     </main>
   );
