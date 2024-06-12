@@ -16,12 +16,12 @@ export default function ActivityItemContainer({
   children,
 }: Props) {
   return (
-    <article>
+    <article className="mt-6">
       {title &&
         (url ? (
           <Link
             href={url}
-            className="mt-4 mb-1 underline underline-offset-4 text-black hover:text-black/60 block"
+            className="mb-1 underline underline-offset-4 text-black hover:text-black/60 block"
           >
             <h2 className="text-2xl font-normal break-keep m-0 inline">
               {title}
@@ -29,7 +29,7 @@ export default function ActivityItemContainer({
             <Image className="ml-1" alt="link icon" src={LinkIcon} width={16} />
           </Link>
         ) : (
-          <h2 className="text-2xl font-normal mt-4 mb-1 break-keep">{title}</h2>
+          <h2 className="text-2xl font-normal mb-1 break-keep">{title}</h2>
         ))}
       {subtitle && (
         <h3 className="text-base font-normal mt-1 mb-1 text-gray-400 break-keep">
