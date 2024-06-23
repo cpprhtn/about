@@ -153,8 +153,8 @@ export default function Home() {
     <main className="mx-auto my-12 max-w-screen-sm p-4">
       <Header />
       <WorkSection />
-      <ExperienceSection />
       <ArticleSection />
+      <ExperienceSection />
       <Footer />
     </main>
   );
