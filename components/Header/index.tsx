@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function Header() {
+  const years = new Date().getFullYear() - 2022 + 1;
+
   return (
     <header>
       <div>
@@ -9,9 +11,9 @@ export default function Header() {
       </div>
       <div>
         <p className="text-lg">
-          안녕하세요,
+          {years}년차 소프트웨어 엔지니어입니다.
           <br />
-          주로 백엔드를 구축하고 있습니다.
+          주로 백엔드를 개발하고 있습니다.
         </p>
         <p className="text-lg">
           보이지 않는 곳에서 동작하는 것들에 대해 알아보는 걸 좋아합니다.

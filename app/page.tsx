@@ -4,10 +4,8 @@ import ActivityContainer from "@lery/containers/ActivityContainer";
 import ActivityItemContainer from "@lery/containers/ActivityItemContainer";
 
 function WorkSection() {
-  const years = new Date().getFullYear() - 2022 + 1;
-
   return (
-    <ActivityContainer title={`Work: ${years}년차`}>
+    <ActivityContainer title="Work">
       <ActivityItemContainer
         title="모두싸인 SaaS 플랫폼팀"
         subtitle="백엔드 엔지니어, 2023.08 ~ 현재"
