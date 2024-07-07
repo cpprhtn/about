@@ -144,6 +144,11 @@ function ArticleSection() {
         url="https://velog.io/@coalery/kafka-consumer-with-nestjs"
         subtitle="Nest.js의 커스텀 어댑터를 활용해서 기존에는 HTTP 요청만 처리하던 Nest.js가 카프카 컨슈머로 동작할 수 있도록 만들어봅니다."
       />
+      <ActivityItemContainer
+        title="Nestjs를 닮은 DI 시스템 직접 구현하기 - 1"
+        url="https://velog.io/@coalery/nestjs-like-di-system-1"
+        subtitle="데코레이터를 통해 프로퍼티와 파라미터에 의존성을 주입할 수 있도록 구현해봅니다."
+      />
     </ActivityContainer>
   );
 }
