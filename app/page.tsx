@@ -28,7 +28,14 @@ function ExperienceSection() {
       <ActivityItemContainer
         title="경희대학교 컴퓨터공학부 컴퓨터공학과"
         subtitle="학부생, 2021.03 ~ 현재"
-      ></ActivityItemContainer>
+      >
+        <ul>
+          <li>
+            컴퓨터공학부 학생회 주관 2024 트랙 스터디에서 플러터 스터디 멘토링을
+            진행하였습니다.
+          </li>
+        </ul>
+      </ActivityItemContainer>
       <ActivityItemContainer
         title="경희대학교 중앙 IT 동아리 쿠러그"
         subtitle="운영진, 2021.04 ~ 현재"
