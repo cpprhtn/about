@@ -5,7 +5,7 @@ import ActivityItemContainer from "@lery/containers/ActivityItemContainer";
 
 function WorkSection() {
   return (
-    <ActivityContainer title="Work">
+    <ActivityContainer title="일">
       <ActivityItemContainer
         title="모두싸인 SaaS 플랫폼팀"
         subtitle="백엔드 엔지니어, 2023.08 ~ 현재"
@@ -24,45 +24,26 @@ function WorkSection() {
 
 function ExperienceSection() {
   return (
-    <ActivityContainer title="Experience">
-      <ActivityItemContainer
-        title="경희대학교 컴퓨터공학부 컴퓨터공학과"
-        subtitle="학부생, 2021.03 ~ 현재"
-      >
-        <ul>
-          <li>
-            컴퓨터공학부 학생회 주관 2024 트랙 스터디에서 플러터 스터디 멘토링을
-            진행하였습니다.
-          </li>
-        </ul>
-      </ActivityItemContainer>
+    <ActivityContainer title="경험">
       <ActivityItemContainer
         title="경희대학교 중앙 IT 동아리 쿠러그"
         subtitle="운영진, 2021.04 ~ 현재"
         url="https://khlug.org"
       >
         <ul>
+          <li>동아리 가입 신청 및 관련 문의 처리 (2021~2022)</li>
+          <li>동아리 내 전반적인 전산 시스템 유지보수 및 관리 (2023~)</li>
           <li>
-            인사 담당자로써 동아리 가입 신청을 및 관련 문의를 처리하였습니다.
-            (2021~2022)
-          </li>
-          <li>개발 담당자로써 동아리 내 전산 전반을 관리하였습니다. (2023~)</li>
-          <li>
-            경희대학교 소프트웨어 해커톤 khuthon 2021, 2022의 기획 및 운영, 현장
-            스태프로 참여하였습니다.
+            경희대학교 소프트웨어 해커톤 khuthon의 기획 및 운영, 현장 스태프로
+            참여 (2021~)
           </li>
           <li>
-            경희대학교 소프트웨어 해커톤 khuthon 2023의 기획 및 운영, 현장
-            스태프 및 전산 시스템 관리 역할을 맡았습니다.
-          </li>
-          <li>
-            경희대학교 소프트웨어 해커톤 khuthon 2024의 기획 및 운영, 현장
-            스태프, 전산 시스템 관리 역할을 맡았습니다. PHP 기반의 기존 khuthon
-            서비스를 NextJS + NestJS로 포팅하였습니다.
+            경희대학교 소프트웨어 해커톤 khuthon의 전산 시스템 관리 (2023~)
             <ul>
+              <li>PHP 기반의 레거시 시스템을 NextJS + NestJS로 포팅</li>
               <li>
-                기존에는 참가 접수 플로우가 학교 인증 시스템에 의존되어 있어,
-                의존을 제거하기 위해 접수 플로우 전반을 개편하였습니다.
+                타 학교 학생의 접수를 위해 기존 학교 인증 시스템 기반에서 이메일
+                인증 기반으로 접수 플로우 전반을 수정
               </li>
             </ul>
           </li>
@@ -74,21 +55,24 @@ function ExperienceSection() {
         url="https://susc.kr"
       >
         <ul>
+          <li>스터디 활동 및 성과 공유회의 기획 및 운영 참여</li>
           <li>
-            SUSC는 여러 대학의 IT 동아리가 연합한 교류 단체로, 방학 기간에
-            진행하는 스터디 및 성과 발표회를 중심으로 여러 활동을 진행하고
-            있습니다.
-          </li>
-          <li>SUSC 행사를 기획하고 진행하였습니다.</li>
-          <li>
-            SUSC 2023 Summer에서 13차시 분량의 플러터 교육을 기획하고, 학습
-            자료를 만들어 배포하였습니다. 또, 그 경험을 모아 성과 발표회에서
-            발표를 진행하였습니다.
+            SUSC 2023 Summer에서 13차시 분량의 플러터 교육 기획 및 학습 자료
+            배포
           </li>
           <li>
-            SUSC 2023 Winter에서 9차시 분량의 NestJS 교육을 기획하고 학습 자료를
-            만들어 디스코드에서 실시간으로 스터디를 진행했습니다.
+            SUSC 2023 Winter에서 9차시 분량의 NestJS 교육 기획 및 실시간 스터디
+            진행
           </li>
+          <li>SUSC 2024 Summer에서 5차시 분량의 코틀린 스터디 진행</li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="컴퓨터공학부 학생회 주관 2024 트랙 스터디"
+        subtitle="멘토, 2024.07 ~ 2024.08"
+      >
+        <ul>
+          <li>10차시 과정의 플러터 스터디 기획 및 멘토링 진행</li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
@@ -96,37 +80,19 @@ function ExperienceSection() {
         subtitle="멘토, 2023.10"
       >
         <ul>
-          <li>
-            3일에 걸친 해커톤에서 주제에 대한 피드백이나, 주제 선정 시 고려해야
-            할 점, 주제를 구체화하는 방법, 기술적인 질문이나 개발자로서의 커리어
-            관련 질문에 답변해드렸습니다.
-          </li>
+          <li>3일간 주제 피드백 및 기술적 피드백 등 멘토링 진행</li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
         title="부산 소프트웨어 마이스터 고등학교 AI 전공 캠프"
         subtitle="멘토, 2022.01"
-      >
-        <ul>
-          <li>
-            교육을 듣던 중 나오는 학생분들의 질문에 답변을 드리고, 추가적인
-            설명을 통해 내용을 쉽게 이해할 수 있도록 도왔습니다.
-          </li>
-          <li>
-            캠프 마지막 날에 진행한 데이터톤에서 질문 답변 및 오류 해결 등
-            진행을 도왔습니다.
-          </li>
-        </ul>
-      </ActivityItemContainer>
+      ></ActivityItemContainer>
       <ActivityItemContainer
         title="설리번 프로젝트"
         subtitle="앱 부문(Flutter) 멘토, 2021.04 ~ 2021.08"
       >
         <ul>
-          <li>
-            디데이 앱 제작을 목표로 7차시 과정의 교육 계획서를 작성하고, 교육
-            자료를 만들어 12명에게 플러터 멘토링을 진행하였습니다.
-          </li>
+          <li>7차시 과정의 플러터 스터디 기획 및 멘토링 진행</li>
         </ul>
       </ActivityItemContainer>
     </ActivityContainer>
@@ -135,7 +101,7 @@ function ExperienceSection() {
 
 function ArticleSection() {
   return (
-    <ActivityContainer title="Article">
+    <ActivityContainer title="글">
       <ActivityItemContainer
         title="Nest.js는 실제로 어떻게 의존성을 주입해줄까?"
         url="https://velog.io/@coalery/nest-injection-how"
@@ -152,9 +118,20 @@ function ArticleSection() {
         subtitle="Nest.js의 커스텀 어댑터를 활용해서 기존에는 HTTP 요청만 처리하던 Nest.js가 카프카 컨슈머로 동작할 수 있도록 만들어봅니다."
       />
       <ActivityItemContainer
-        title="Nestjs를 닮은 DI 시스템 직접 구현하기 - 1"
-        url="https://velog.io/@coalery/nestjs-like-di-system-1"
-        subtitle="데코레이터를 통해 프로퍼티와 파라미터에 의존성을 주입할 수 있도록 구현해봅니다."
+        title="Nestjs를 닮은 DI 시스템 직접 구현하기"
+        url="https://velog.io/@coalery/series/nestjs-like-di-system"
+        subtitle="프로퍼티와 파라미터에 의존성을 주입해주는 DI 시스템을 구현해봅니다."
+      />
+    </ActivityContainer>
+  );
+}
+
+function EducationSection() {
+  return (
+    <ActivityContainer title="배움">
+      <ActivityItemContainer
+        title="경희대학교 컴퓨터공학부 컴퓨터공학과"
+        subtitle="학부생, 2021.03 ~ 현재"
       />
     </ActivityContainer>
   );
@@ -167,6 +144,7 @@ export default function Home() {
       <WorkSection />
       <ArticleSection />
       <ExperienceSection />
+      <EducationSection />
       <Footer />
     </main>
   );
