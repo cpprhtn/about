@@ -9,15 +9,48 @@ function WorkSection() {
       <ActivityItemContainer
         title="모두싸인 SaaS 플랫폼팀"
         subtitle="백엔드 엔지니어, 2023.08 ~ 현재"
-      ></ActivityItemContainer>
+      >
+        <ul>
+          <li>
+            모두싸인이 SaaS 서비스로서 동작하기 위해 가져야 하는 기반 기능 개발
+          </li>
+          <ul>
+            <li>인증, 인가, 구독, 결제, 보안 등</li>
+          </ul>
+          <li>
+            사내 Nest.js 기반 서비스 및 라이브러리의 버전 v6에서 v10으로
+            업그레이드 진행
+          </li>
+        </ul>
+      </ActivityItemContainer>
       <ActivityItemContainer
         title="모두싸인 워크스페이스TF"
         subtitle="백엔드 엔지니어, 2022.09 ~ 2023.08"
-      ></ActivityItemContainer>
+      >
+        <ul>
+          <li>
+            파편화된 리소스 소유권 및 권한을 통일하고, RBAC 기반의 중앙화된 인가
+            시스템을 구축한 프로젝트 참여
+          </li>
+          <li>
+            여러 데이터베이스의 CDC 이벤트를 받아 중앙 인가 데이터베이스에 인가
+            데이터를 반영하는 카프카 컨슈머 서비스 구현
+          </li>
+          <li>
+            모두싸인 내 거의 모든 데이터의 이기종 데이터베이스 간 대규모
+            마이그레이션 진행
+          </li>
+        </ul>
+      </ActivityItemContainer>
       <ActivityItemContainer
         title="모두싸인 조직관리팀"
         subtitle="백엔드 엔지니어, 2022.03 ~ 2022.09"
-      ></ActivityItemContainer>
+      >
+        <ul>
+          <li>여러 사용자가 조직 내에서 협업할 수 있도록 관련 기능 개발</li>
+          <li>Express 기반의 레거시 서비스를 Nest.js 기반으로 포팅 진행</li>
+        </ul>
+      </ActivityItemContainer>
     </ActivityContainer>
   );
 }
