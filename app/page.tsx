@@ -21,6 +21,9 @@ function WorkSection() {
             사내 Nest.js 기반 서비스 및 라이브러리의 버전 v6에서 v10으로
             업그레이드 진행
           </li>
+          <li>
+            배포 중 충돌 방지를 위해 브랜치 락 개념을 도입하여 프로세스 개선
+          </li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
