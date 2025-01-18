@@ -7,8 +7,16 @@ function WorkSection() {
   return (
     <ActivityContainer title="일">
       <ActivityItemContainer
+        title="모두싸인 CTO팀 및 공공 SaaS 운영팀"
+        subtitle="백엔드 엔지니어, 2025.01 ~ 현재"
+      >
+        <ul>
+          <li>작성 예정</li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
         title="모두싸인 SaaS 플랫폼팀"
-        subtitle="백엔드 엔지니어, 2023.08 ~ 현재"
+        subtitle="백엔드 엔지니어, 2023.08 ~ 2024.12"
       >
         <ul>
           <li>
