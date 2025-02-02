@@ -1,130 +1,176 @@
-import Footer from "@lery/components/Footer";
-import Header from "@lery/components/Header";
-import ActivityContainer from "@lery/containers/ActivityContainer";
-import ActivityItemContainer from "@lery/containers/ActivityItemContainer";
+import Footer from "@cpprhtn/components/Footer";
+import Header from "@cpprhtn/components/Header";
+import ActivityContainer from "@cpprhtn/containers/ActivityContainer";
+import ActivityItemContainer from "@cpprhtn/containers/ActivityItemContainer";
+import ProjectSection from "@cpprhtn/components/Project";
+
+function SkillSection() {
+  return (
+    <ActivityContainer title="스킬">
+      <ActivityItemContainer
+        title="Python"
+        subtitle=""
+      >
+        <ul>
+          <li>Pandas, Polars, Fastapi, Pyspark, Streamlit</li>
+          <li>Pytorch, Tensorflow, Airflow, AutoML</li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="C++"
+        subtitle=""
+      >
+        <ul>
+          <li>CMake, OpenMP, OpenCV</li>
+          <li>Unreal Engine, Cocos2D-x</li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="SQL & DB"
+        subtitle=""
+      >
+        <ul>
+          <li>PostgreSQL, MySQL</li>
+          <li>MongoDB, Redis</li>
+        </ul>
+      </ActivityItemContainer>
+    </ActivityContainer>
+  )
+}
 
 function WorkSection() {
   return (
-    <ActivityContainer title="일">
+    <ActivityContainer title="경력">
       <ActivityItemContainer
-        title="모두싸인 CTO팀 및 공공 SaaS 운영팀"
-        subtitle="백엔드 엔지니어, 2025.01 ~ 현재"
+        title="한국전자통신연구원(ETRI) · 환경ICT연구실"
+        subtitle="인턴, 2024.07 ~ 2024.08"
       >
         <ul>
-          <li>작성 예정</li>
-        </ul>
-      </ActivityItemContainer>
-      <ActivityItemContainer
-        title="모두싸인 SaaS 플랫폼팀"
-        subtitle="백엔드 엔지니어, 2023.08 ~ 2024.12"
-      >
-        <ul>
-          <li>
-            모두싸인이 SaaS 서비스로서 동작하기 위해 가져야 하는 기반 기능 개발
-          </li>
+          <li>FEMS 보급형 표준 플랫폼 개발 및 실증 연구</li>
           <ul>
-            <li>인증, 인가, 구독, 결제, 보안 등</li>
+            <li>공장 에너지 관리 시스템을 위한 수요 예측 연구</li>
+            <li>생성형 AI를 활용한 이상진단 시뮬레이터 기능 연구</li>
           </ul>
-          <li>
-            사내 Nest.js 기반 서비스 및 라이브러리의 버전 v6에서 v10으로
-            업그레이드 진행
-          </li>
-          <li>
-            배포 중 충돌 방지를 위해 브랜치 락 개념을 도입하여 프로세스 개선
-          </li>
+          <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11949327"><li>[논문/한국통신학회] miniEDA: 데이터 메시를 활용한 통합 데이터 분석 및 품질 관리 플랫폼 (1저자)</li></a>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
-        title="모두싸인 워크스페이스TF"
-        subtitle="백엔드 엔지니어, 2022.09 ~ 2023.08"
+        title="한국인공지능연구소 · ChatGPT Reverse Engineering"
+        subtitle="AI Researcher, 2023.03 ~ 2023.05"
       >
         <ul>
-          <li>
-            파편화된 리소스 소유권 및 권한을 통일하고, RBAC 기반의 중앙화된 인가
-            시스템을 구축한 프로젝트 참여
-          </li>
-          <li>
-            여러 데이터베이스의 CDC 이벤트를 받아 중앙 인가 데이터베이스에 인가
-            데이터를 반영하는 카프카 컨슈머 서비스 구현
-          </li>
-          <li>
-            수 억 개의 데이터를 이기종 데이터베이스 간에 대규모 마이그레이션
-            진행
-          </li>
-        </ul>
-      </ActivityItemContainer>
-      <ActivityItemContainer
-        title="모두싸인 조직관리팀"
-        subtitle="백엔드 엔지니어, 2022.03 ~ 2022.09"
-      >
-        <ul>
-          <li>여러 사용자가 조직 내에서 협업할 수 있도록 관련 기능 개발</li>
-          <li>Express 기반의 레거시 서비스를 Nest.js 기반으로 포팅 진행</li>
+          <li>Research and implementation of PPO and RLHF</li>
         </ul>
       </ActivityItemContainer>
     </ActivityContainer>
   );
 }
 
+
 function ExperienceSection() {
   return (
     <ActivityContainer title="경험">
       <ActivityItemContainer
-        title="경희대학교 중앙 IT 동아리 쿠러그"
-        subtitle="운영진, 2021.04 ~ 현재"
-        url="https://khlug.org"
-      >
-        <ul>
-          <li>동아리 가입 신청 및 관련 문의 처리 (2021~2022)</li>
-          <li>동아리 내 전반적인 전산 시스템 유지보수 및 관리 (2023~)</li>
+        title="Apache Airflow Users Korea: Organizer"
+        subtitle="2023.12 ~ Now"
+      />
+      <ul>
           <li>
-            경희대학교 소프트웨어 해커톤 khuthon의 기획 및 운영, 현장 스태프로
-            참여 (2021~)
+            Airflow 한국사용자모임 2nd Meetup Airflow 101 발표
           </li>
           <li>
-            경희대학교 소프트웨어 해커톤 khuthon의 전산 시스템 관리 (2023~)
-            <ul>
-              <li>PHP 기반의 레거시 시스템을 NextJS + NestJS로 포팅</li>
-              <li>
-                타 학교 학생의 접수를 위해 기존 학교 인증 시스템 기반에서 이메일
-                인증 기반으로 접수 플로우 전반을 수정
-              </li>
-            </ul>
+            파이콘 한국 2024 Airflow 포스터 부스 운영 
+          </li>
+      </ul>
+      <ActivityItemContainer
+        title="C++ Korea: Organizer"
+        subtitle="2023.12 ~ Now"
+      >
+        <ul>
+          <li>
+            <a href="https://festa.io/events/4635">[부산] 리눅스 환경(WSL 포함)에서 C++ 실습하기</a> 주최
+          </li>
+          <li>
+            <a href="https://festa.io/events/4909">C++ Korea 2024 부산 Meet-Up(3월)</a> 주최
           </li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
-        title="SUSC 대학 교류 단체"
+        title="파이토치한국사용자모임: Facebook Moderator"
+        subtitle="2023.06 ~ Now"
+      />
+      <ActivityItemContainer
+        title="Python Korea: Organizer"
+        subtitle="2023.01 ~ Now"
+      >
+        <ul>
+          <li>
+            <a href="https://event-us.kr/pyconkr/event/71494">파이콘 한국 부산 세미나</a> 주최
+          </li>
+          <li>
+            <a href="https://2024.pycon.kr/">파이콘한국2023,2024 컨퍼런스</a> 주최
+          </li>
+          <li>A11y Team Lead</li>
+          <li>
+            <a href="https://news.hada.io/topic?id=18584&utm_source=discord&utm_medium=bot&utm_campaign=1983">pypi Korean translations 담당자</a>
+          </li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="GDSC: Core Member"
+        subtitle="2022.07 ~ 2024.03"
+      >
+        <ul>
+          <li>“AI시장에서 MLOps로 전직하기” 기술세미나 발표</li>
+          <li>GDSC X GDG DevFest DaangnMarket Code Jam Session 진행</li>
+          <li>Code Bridge conference 기획/주최</li>
+          <li>GDSC Busan Hackathon 기획/주최</li>
+        </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="SUSC 대학 교류 단체 Co-Founder"
         subtitle="운영진 및 멘토, 2023.07 ~ 현재"
         url="https://susc.kr"
       >
         <ul>
           <li>스터디 활동 및 성과 공유회의 기획 및 운영 참여</li>
           <li>
-            SUSC 2023 Summer에서 13차시 분량의 플러터 교육 기획 및 학습 자료
-            배포
+            SUSC 2023 Summer: AI논문리딩 스터디 진행
           </li>
           <li>
-            SUSC 2023 Winter에서 9차시 분량의 NestJS 교육 기획 및 실시간 스터디
-            진행
+            SUSC 2023 Winter: AI논문리딩 스터디, AutoML 스터디 진행
           </li>
-          <li>SUSC 2024 Summer에서 5차시 분량의 코틀린 스터디 진행</li>
+          <li>SUSC 2024 Summer: AI논문리딩 스터디 진행</li>
+          <li>SUSC 2024 Winter: AI논문리딩 스터디, Pythonic Python 스터디 진행</li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
-        title="컴퓨터공학부 학생회 주관 2024 트랙 스터디"
-        subtitle="멘토, 2024.07 ~ 2024.08"
+        title="한빛미디어 <혼자 공부하는 컴퓨터구조 + 운영체제> 베타리더"
+        subtitle="2022.03 ~ 2022.08"
       >
-        <ul>
-          <li>10차시 과정의 플러터 스터디 기획 및 멘토링 진행</li>
-        </ul>
+        <a href="https://www.yes24.com/Product/Goods/111378840">도서 링크</a>
       </ActivityItemContainer>
       <ActivityItemContainer
-        title="2023 SW마이스터고 연합 해커톤"
-        subtitle="멘토, 2023.10"
+        title="2022 OSSCA 컨트리뷰톤"
+        subtitle="리드멘티, 2024.07 ~ 2024.11"
       >
         <ul>
-          <li>3일간 주제 피드백 및 기술적 피드백 등 멘토링 진행</li>
+          <li>
+            hub-kr 최다기여자 <a href="https://github.com/PyTorchKorea/hub-kr">(link)</a>
+          </li>
+          <li>
+            Pytorch-Hub Build Docker 제작 <a href="https://github.com/cpprhtn/pytorch-hub-docker">(link)</a>
+          </li>
+          <li>
+            <strong>hub</strong>
+            <ul>
+              <li>Fix typo in 3D ResNet (<a href="https://github.com/pytorch/hub/pull/302">link</a>)</li>
+              <li>Fix: lost reference number (<a href="https://github.com/pytorch/hub/pull/303">link</a>)</li>
+              <li>fix: space-typo error (<a href="https://github.com/pytorch/hub/pull/305">link</a>)</li>
+              <li>fix: typo error (<a href="https://github.com/pytorch/hub/pull/306">link</a>)</li>
+              <li>Explicit conversion (<a href="https://github.com/pytorch/hub/pull/309">link</a>)</li>
+            </ul>
+          </li>
         </ul>
       </ActivityItemContainer>
       <ActivityItemContainer
@@ -132,51 +178,30 @@ function ExperienceSection() {
         subtitle="멘토, 2022.01"
       ></ActivityItemContainer>
       <ActivityItemContainer
-        title="설리번 프로젝트"
-        subtitle="앱 부문(Flutter) 멘토, 2021.04 ~ 2021.08"
+        title="충남 과학고등학교 Tensorflow 캠프"
+        subtitle="강사, 2021.07.19 ~ 2021.08.15"
       >
         <ul>
-          <li>7차시 과정의 플러터 스터디 기획 및 멘토링 진행</li>
+          <li>인공지능에 대한 전반적인 개론 강의</li>
+          <li>TensorFlow Framework를 사용한 ML/DL 실습</li>
         </ul>
       </ActivityItemContainer>
     </ActivityContainer>
-  );
-}
-
-function ArticleSection() {
-  return (
-    <ActivityContainer title="글">
-      <ActivityItemContainer
-        title="Nest.js는 실제로 어떻게 의존성을 주입해줄까?"
-        url="https://velog.io/@coalery/nest-injection-how"
-        subtitle="Nest.js가 의존성을 주입하는 방법을 Nest.js 코드와 함께 깊게 알아봅니다."
-      />
-      <ActivityItemContainer
-        title="Nest.js는 실제로 어떻게 라우트를 처리할까?"
-        url="https://velog.io/@coalery/nest-route-how"
-        subtitle="Nest.js가 어떻게 ExpressJS에서 요청을 전달 받아 적절하게 컨트롤러의 핸들러를 호출해줄 수 있는지를 깊게 알아봅니다."
-      />
-      <ActivityItemContainer
-        title="Nest.js를 카프카 컨슈머로 만들기! 그런데 많이 이상하게."
-        url="https://velog.io/@coalery/kafka-consumer-with-nestjs"
-        subtitle="Nest.js의 커스텀 어댑터를 활용해서 기존에는 HTTP 요청만 처리하던 Nest.js가 카프카 컨슈머로 동작할 수 있도록 만들어봅니다."
-      />
-      <ActivityItemContainer
-        title="Nestjs를 닮은 DI 시스템 직접 구현하기"
-        url="https://velog.io/@coalery/series/nestjs-like-di-system"
-        subtitle="프로퍼티와 파라미터에 의존성을 주입해주는 DI 시스템을 구현해봅니다."
-      />
-    </ActivityContainer>
+    
   );
 }
 
 function EducationSection() {
   return (
-    <ActivityContainer title="배움">
+    <ActivityContainer title="학력">
       <ActivityItemContainer
-        title="경희대학교 컴퓨터공학부 컴퓨터공학과"
-        subtitle="학부생, 2021.03 ~ 현재"
+        title="동아대학교 컴퓨터공학&AI학부 AI학과"
+        subtitle="학부생, 2021.03 ~ 2025.07"
       />
+      <ul>
+          <li>MLP(Mecca-of-Learning-Pioneer) 학술동아리 설립 및 운영</li>
+          <li>2~4학년 과대표/2~3학년 학생회</li>
+      </ul>
     </ActivityContainer>
   );
 }
@@ -185,8 +210,9 @@ export default function Home() {
   return (
     <main className="mx-auto my-12 max-w-screen-sm p-4">
       <Header />
+      <SkillSection />
       <WorkSection />
-      <ArticleSection />
+      <ProjectSection />
       <ExperienceSection />
       <EducationSection />
       <Footer />

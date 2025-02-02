@@ -2,7 +2,7 @@
 
 자기 소개 페이지입니다. 이력서를 겸합니다.
 
-Static Site를 생성하여 Github Pages로 서빙됩니다.
+[Coalery/about](https://github.com/Coalery/about.git) 레포를 기반으로 제작하였습니다.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ Static Site를 생성하여 Github Pages로 서빙됩니다.
 ### Install
 
 ```shell
-git clone https://github.com/Coalery/about.git
+git clone https://github.com/cpprhtn/about.git
 cd about
 npm install
 ```

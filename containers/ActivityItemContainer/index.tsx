@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import LinkIcon from "@lery/icons/LinkIcon.svg";
+import LinkIcon from "@cpprhtn/icons/LinkIcon.svg";
 
 type Props = {
   title?: string;
-  subtitle?: string;
+  subtitle?: React.ReactNode;
   url?: string;
   children?: React.ReactNode;
 };
