@@ -54,19 +54,10 @@ function WorkSection() {
           <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11949327"><li>[논문/한국통신학회] miniEDA: 데이터 메시를 활용한 통합 데이터 분석 및 품질 관리 플랫폼 (1저자)</li></a>
         </ul>
       </ActivityItemContainer>
-      <ActivityItemContainer
-        title="한국인공지능연구소 · ChatGPT Reverse Engineering"
-        subtitle="AI Researcher, 2023.03 ~ 2023.05"
-      >
-        <ul>
-          <li>Research and implementation of PPO and RLHF</li>
-        </ul>
-      </ActivityItemContainer>
+      
     </ActivityContainer>
   );
 }
-
-
 function ExperienceSection() {
   return (
     <ActivityContainer title="경험">
@@ -99,6 +90,14 @@ function ExperienceSection() {
         title="파이토치한국사용자모임: Facebook Moderator"
         subtitle="2023.06 ~ Now"
       />
+      <ActivityItemContainer
+        title="한국인공지능연구소 · ChatGPT Reverse Engineering"
+        subtitle="AI Researcher, 2023.03 ~ 2023.05"
+      >
+        <ul>
+          <li>Research and implementation of PPO and RLHF</li>
+        </ul>
+      </ActivityItemContainer>
       <ActivityItemContainer
         title="Python Korea: Organizer"
         subtitle="2023.01 ~ Now"
@@ -191,6 +190,55 @@ function ExperienceSection() {
   );
 }
 
+
+function AwardsSection() {
+  return (
+    <ActivityContainer title="수상경력">
+      <ActivityItemContainer
+        title="DevDay AI·SW 실증역량경진대회 대상"
+        subtitle="교내수상, 2023.12"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="Open Source 개발 경진대회 AI Track 최우수상"
+        subtitle="교내수상, 2023.12"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="지역현안해결 대학수업지원 프로젝트 우수상"
+        subtitle="부산테크노파크, 2023.12"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="GDSC Busan Hackathon 장려상"
+        subtitle="Google Developer Student Clubs, 2023.07"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="부산 제 7회 ICT 해커톤 대상"
+        subtitle="부산광역시/과학기술정보통신부, 2022.08"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="인공지능 캡스톤디자인 경진대회 우수상"
+        subtitle="한국멀티미디어학회, 2022.05"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="부산 제5회 ICT 해커톤 최우수상"
+        subtitle="부산광역시/부산대학교SW혁신센터, 2020.11"
+      >
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="ICT K-awards 알고리즘 프로그래밍 고등부 장려상"
+        subtitle="한국정보과학진흥협회, 2018.07"
+      >
+      </ActivityItemContainer>
+      
+    </ActivityContainer>
+  );
+}
+
 function EducationSection() {
   return (
     <ActivityContainer title="학력">
@@ -202,6 +250,48 @@ function EducationSection() {
           <li>MLP(Mecca-of-Learning-Pioneer) 학술동아리 설립 및 운영</li>
           <li>2~4학년 과대표/2~3학년 학생회</li>
       </ul>
+      
+      <ActivityItemContainer
+        title="부산대학교 Wireless Networks Lab(WINE)"
+        subtitle="외부연구원, 2022.08 ~ 2023.05"
+        url="https://wireless-ai.pusan.ac.kr/wireless-ai/index.do"
+      >
+        <ul>
+          <li>
+              [논문투고] Anti-UAV 시스템을 위한 UAV 신호 분류 CNN 모델 (1저자)
+              <ul>
+                  <li>KMMS 멀티미디어학회 인공지능 경진대회 우수상</li>
+                  <li>2 depth camera base Object detection 공부</li>
+              </ul>
+          </li>
+          <li>
+              [정책연구] Development of O2O service model for the management of chronic diseases for adults
+              <ul>
+                  <li>만성질환(고혈압, 당뇨병) 환자 대상 O2O 서비스 모델 개발</li>
+                  <li>만성질환 관리 가이드라인/알고리즘 개발 및 적용</li>
+                  <li>Android 앱 및 React 웹 형태로 배포</li>
+              </ul>
+          </li>
+      </ul>
+      </ActivityItemContainer>
+      <ActivityItemContainer
+        title="부경대학교 해양역학·예측 연구실"
+        subtitle="외부연구원, 2021.03 ~ 2023.01"
+        url="https://enma.pknu.ac.kr/enma/2509?action=view&no=19402079"
+      >
+        <ul>
+          <li>통계기법을 이용한 해수면온도 관측자료의 이상치 검출 프로그램
+              <ul>
+                  <li>
+                      <a href="https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/sch/swRscOtct/swRscOtctList.xml" target="_blank">
+                          컴퓨터프로그램저작물 저작권 등록, 등록번호: C-2022-056817
+                      </a> [부경대학교산학협력단]
+                  </li>
+                  <li>4TB 크기의 <code>.nc</code> 확장자 파일 전처리</li>
+              </ul>
+          </li>
+      </ul>
+      </ActivityItemContainer>
     </ActivityContainer>
   );
 }
