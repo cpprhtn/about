@@ -258,9 +258,9 @@ function EducationSection() {
       >
         <ul>
           <li>
-              [논문투고] Anti-UAV 시스템을 위한 UAV 신호 분류 CNN 모델 (1저자)
+              [논문/한국멀티미디어학회] Anti-UAV 시스템을 위한 UAV 신호 분류 CNN 모델 (1저자)
               <ul>
-                  <li>KMMS 멀티미디어학회 인공지능 경진대회 우수상</li>
+                  <li>KMMS 한국멀티미디어학회 인공지능 경진대회 우수상</li>
                   <li>2 depth camera base Object detection 공부</li>
               </ul>
           </li>
