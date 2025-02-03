@@ -304,6 +304,7 @@ export default function Home() {
       <WorkSection />
       <ProjectSection />
       <ExperienceSection />
+      <AwardsSection />
       <EducationSection />
       <Footer />
     </main>
