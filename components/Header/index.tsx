@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <div>
         <h1 className="text-5xl font-bold inline">이준원</h1>
-        <h4 className="text-xl text-black/50 inline ml-2">Cpprhtn, C++고수</h4>
+        <h4 className="text-xl text-black/50 inline ml-2">Junwon Lee</h4>
       </div>
       <div>
         <p className="text-lg">
